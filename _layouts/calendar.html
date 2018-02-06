@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:{{ "/" | absolute_url }}
+METHOD:PUBLISH
+{%- for event in site.data.php %}
+BEGIN:VEVENT
+UID:PHP-{{ event.version }}-{{ event.type | replace: " ", "-" }}-{{ event.date }}@{{ "/" | absolute_url }}
+SUMMARY:PHP {{ event.version }} {{ event.type }}
+DTSTART:{{ event.date | date: "%Y%m%d" }}
+DTSTAMP:{{ "now" | date: "%Y%m%dT%H%M%S" }}
+END:VEVENT{% endfor %}
+END:VCALENDAR
