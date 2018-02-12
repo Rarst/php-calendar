@@ -6,4 +6,4 @@ title: PHP Calendar
 
 Ever wanted information from [PHP Supported versions](http://php.net/supported-versions.php) to _just_ show up in your calendar?
 
-And now it can, just add `http://php-calendar.rarst.net/calendar.ics` to it! 
+And now it can, just add `{{ site.url }}{% link calendar.md %}` to it!
