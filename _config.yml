@@ -16,7 +16,7 @@
 title: PHP Calendar
 description: Calendar feeds for PHP versions releases and support.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://php-calendar.rarst.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://php-calendar.rarst.net" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 
 # Build settings
