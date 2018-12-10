@@ -11,3 +11,6 @@ version,date,type
 7.2,2017-11-30,released
 7.2,2019-11-30,end of active support
 7.2,2020-11-30,end of security support
+7.3,2018-12-06,released
+7.3,2020-12-06,end of active support
+7.3,2021-12-06,end of security support
